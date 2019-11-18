@@ -1,0 +1,8 @@
+autopep8
+nose
+cryptography
+coverage
+pytest==4.3.0
+pytest-cov
+pyyaml
+pandas
