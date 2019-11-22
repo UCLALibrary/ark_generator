@@ -31,8 +31,8 @@ Mints an ARK for items in the csv file. The script dynamically generates another
   $ python simple_ark.py
 ### 4.You will be prompted for the file path that contains the csvs for the manuscripts
   $ [path to file]
-### 5.You will be prompted for the ARK shoulder
-  $ ark:/21198/z1
+### 5.You will be prompted for the ARK shoulder (this is a dummy ark)
+  $ ark:/99999/fk
 ### 6.You will be prompted for the password for EZID
   $ see confluence
 You can replace ark:/21198/z1 with whatever ARK shoulder you want to use (the example given is the "UCLA Digital Library ARK")
