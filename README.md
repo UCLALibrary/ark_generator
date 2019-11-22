@@ -1,9 +1,7 @@
 # ark_generator
 
 ## Purpose of script:
-Loop through a set of files in a directory
-Mints an ARK for items in the csv file
-The script dynamically generates another file to populate metadata and form the structure of the ARK.
+Mints an ARK for items in the csv file. The script dynamically generates another file to populate metadata and form the structure of the ARK.
 
 ## Initial setup
 ### 1.Make a new directory on your computer
