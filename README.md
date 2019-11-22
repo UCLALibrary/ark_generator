@@ -35,5 +35,5 @@ Mints an ARK for items in the csv file. The script dynamically generates another
   $ ark:/99999/fk
 ### 6.You will be prompted for the password for EZID
   $ see confluence
-You can replace ark:/21198/z1 with whatever ARK shoulder you want to use (the example given is the "UCLA Digital Library ARK")
-The script will now generate the ARKs and NOIDs. Once the script is finished running the input files will contain Item ARKs and Parent ARKs(for page csvs).
+You can replace ark:/99999/fk with whatever ARK shoulder you want to use 
+The script will now generate the ARKs and NOIDs. Once the script is finished running there will be another export file in the directory.
