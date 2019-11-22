@@ -28,7 +28,7 @@ Mints an ARK for items in the csv file. The script dynamically generates another
   $ cd arks
 ### 2.Activate the virtual environment
   $ source venv/bin/activate
-### 3.Run the script to generate ARKS for all items in youer csv file
+### 3.Run the script to generate ARKS for all items in your csv file
   $ python simple_ark.py
 ### 4.You will be prompted for the file path that contains the csvs for the manuscripts
   $ [path to file]
