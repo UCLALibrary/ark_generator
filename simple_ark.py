@@ -3,19 +3,10 @@ import os
 import subprocess
 import pandas as pd
 
-#creates a mappings file that provides metadata to EZID
-def create_mappings():
-
-    
-    mappings_file = open("mappings.txt", "w+")
-    string = 'erc.who=UCLA Library'
-    mappings_file.write(string)
-
 works_file = raw_input('File:')
 ark_shoulder = raw_input('ARK shoulder:')
 parent_ark_list = []
 output_file = 'ark_export.csv'
-create_mappings()
 cmd_ezid = ['python', 'batch-register.py', '-c', 'ucla-library', '-s', ark_shoulder, 'mint', 'mappings.txt', works_file]
 parent_ark = subprocess.Popen(cmd_ezid, stdout=subprocess.PIPE).communicate()[0]
 parent_ark = (str(parent_ark))
