@@ -33,7 +33,7 @@ Mints an ARK for items in the csv file. The script dynamically generates another
 ### 4.You will be prompted for the file path that contains the csvs for the manuscripts
   $ [path to file]
 ### 5.You will be prompted for the ARK shoulder (this is a dummy ark)
-  $ ark:/99999/fk
+  $ ark:/99999/fk4
 ### 6.You will be prompted for the password for EZID
   $ see confluence
 You can replace ark:/99999/fk with whatever ARK shoulder you want to use 
