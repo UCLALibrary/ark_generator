@@ -15,7 +15,15 @@ for i in items_list:
     if 'ark:/' in i:
         parent_ark_list.append(i)
 df_list = parent_ark_list[1:]
+empty_column = []
+
 data= pd.read_csv(works_file, sep=',', delimiter=None, header='infer')
+data = data.drop("Parent ARK", axis=1)
+data = data.drop("Rights.copyrightStatus", axis=1)
+data = data.drop("Type.typeOfResource", axis=1)
 data = data.drop("ark_number", axis=1)
-data.insert(2,'Item Ark', df_list)
+data["Parent ARK"] = None
+data["Rights.copyrightStatus"] = None
+data["Type.typeOfResource"] = None
+data.insert(6,'Item Ark', df_list)
 data.to_csv(path_or_buf=output_file, sep=',', na_rep='', float_format=None, index=False)
