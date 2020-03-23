@@ -17,5 +17,5 @@ for i in items_list:
 df_list = parent_ark_list[1:]
 data= pd.read_csv(works_file, sep=',', delimiter=None, header='infer')
 data = data.drop("ark_number", axis=1)
-data.insert(2,'ark_number', df_list)
+data.insert(2,'Item Ark', df_list)
 data.to_csv(path_or_buf=output_file, sep=',', na_rep='', float_format=None, index=False)
