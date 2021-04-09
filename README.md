@@ -14,8 +14,8 @@ Mints an ARK for items in the csv file. The script dynamically generates another
   $ cd ark_generator
 ### 5.Use pip2 to create a virtual environment
   $ pip2 install virtualenv
-  ### Install virtual environment in the directory
-   $ virtualenv venv
+### Install virtual environment in the directory
+   $ virtualenv venv  OR $ virtualenv -p /usr/bin/python2.7 venv (to specify python 2.7)
 ### 6.Activate the virtual environment
   $ source venv/bin/activate
 ### 7.Confirm the python version is 2.7 by running 
