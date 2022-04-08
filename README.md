@@ -13,15 +13,15 @@ Mints an ARK for items in the csv file. The script dynamically generates another
 ### 4. Navigate into ark_generator directory
   $ cd ark_generator
 ### 5.Use pip2 to create a virtual environment
-  $ pip2 install virtualenv
+  $ pip install virtualenv
   ### Install virtual environment in the directory
-   $ virtualenv venv
+  $ python3 -m virtualenv venv
 ### 6.Activate the virtual environment
   $ source venv/bin/activate
-### 7.Confirm the python version is 2.7 by running 
+### 7.Confirm the python version is 3.8+ by running 
   $ python --version
 ### 8.Install the requirements
-  $ pip2 install -r requirements.txt
+  $ pip install -r requirements.txt
 
 ## How to run the script
 ### 1.Navigate into the script directory
